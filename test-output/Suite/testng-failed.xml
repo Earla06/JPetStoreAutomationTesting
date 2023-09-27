@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="methods" name="Failed suite [Suite]">
+  <test thread-count="5" parallel="methods" name="Test(failed)">
+    <classes>
+      <class name="mainFunctionalities.ParallelTestingEdge">
+        <methods>
+          <include name="afterTest"/>
+          <include name="parallelTesting"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- mainFunctionalities.ParallelTestingEdge -->
+      <class name="mainFunctionalities.ParallelTestingChrome">
+        <methods>
+          <include name="parallelTesting"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- mainFunctionalities.ParallelTestingChrome -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

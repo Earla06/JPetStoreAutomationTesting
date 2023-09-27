@@ -1,0 +1,75 @@
+Scope Of Project:
+JPetStore Demo
+The JPetStore Demo is an online pet store. Like most e-stores, you can browse and search the product catalog, 
+choose items to add to a shopping cart, and add the items in the shopping cart. 
+You can perform many of these actions without registering with or logging into the application. However, 
+before you can order items you must log in (sign in) to the application. In order to sign in,
+you must have an account with the application, which is created when you register (sign up) with the application.
+
+1.Signing Up
+2.Signing In
+3.Working with the Product Catalog
+4.Browsing the Catalog
+5.Searching the Catalog
+6.Working with the Shopping Cart
+7.Adding and Removing Items
+8.Updating the Quantity of an Item
+9.Ordering Items
+10.Reviewing an Order
+11.Known Issues
+12.Signing Up
+
+Signing Up:
+To sign up, click the Sign-in link at the right end of the banner. 
+Next, click the New User link in the resulting page. 
+Among other information, the signup page requires you to provide a user identifier and password. 
+This information is used to identify your account and must be provided when signing in.
+
+Signing In:
+You sign in to the application by clicking the Sign-in link at the right end of the banner, 
+filling in the user identifier and password, and clicking the Submit button.
+You will also be redirected to the signin page when you try to place an order and you have not signed in. 
+Once you have signed in, you can return to your shopping session by clicking the shopping cart icon at the right end of the banner.
+
+Working with the Product Catalog:
+This section describes how to browse and search the product catalog.
+
+Browsing the Catalog
+The pet store catalog is organized hierarchically as follows: categories, products, items.
+You list the pets in a category by clicking on the category name in the left column of the main page, or by clicking on the picture representing the category.
+Once you select a category, the pet store will display a list of products within a category. 
+Selecting a product displays a list of items and their prices. 
+Selecting a product item displays a text and visual description of the item and the number of that item in stock.
+
+Searching the Catalog:
+You search for products by typing the product name in search field in the middle of the banner.
+
+Working with the Shopping Cart:
+Adding and Removing Items
+You add an item to your shopping cart by clicking the Add to Cart button to the right of an item. 
+This action also displays your shopping cart.
+You can remove the item by clicking the Remove button to the left of the item.
+
+To continue shopping, you select a product category from the list under the banner.
+
+Updating the Quantity of an Item:
+You adjust the quantity of an item by typing the quantity in the item's Quantity field in the shopping cart and clicking the Update button.
+If the quantity of items requested is greater than that in stock, the In Stock field in the shopping cart will show that the item is backordered.
+
+Ordering Items:
+You order the items in the shopping cart by selecting the Proceed to Checkout button. 
+The pet store will display a read-only list of the shopping cart contents. 
+To proceed with the checkout, click the Continue button.
+If you have not signed in, the application will display the signin page, 
+where you will need to provide your account name and password. 
+Otherwise, the application will display a page requesting payment and shipping information.
+When you have filled in the required information, you click the Submit button, 
+and the application will display a read-only page containing your billing and shipping address. 
+If you need to change any information, click your browser's Back button and enter the correct information. 
+To complete the order, you click the Continue button.
+
+Reviewing An Order:
+The final screen contains your order information.
+The application can be set up to send email confirmation of orders.
+This option can only be set when the application is deployed. 
+See the installation instructions for further information.

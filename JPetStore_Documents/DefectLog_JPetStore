@@ -1,0 +1,31 @@
+DEFECT 1: [Wrong Functional Defect]: "Registration Page"
+
+Expected Result:By Entering already Registration details in registration Page by clicking on "Save Account Information Button" It should give some error message like "Already account exits"and System should show error message and take user to login page.
+Actual Result: By Entering already Registration details in registration Page by clicking on "Save Account Information Button" System is taking user to another tab and closing driver not taking to loginpage.
+SEVERITY : Major      
+        
+DEFECT 2:[Non-Functional Defect]:"Login >> Error Message >> Spelling Mistake"
+
+Excepcted Result:By Entering Invalid Credentials In Sign In page/Login Page System displayed error message as "Invalid username or password. Signon failed." 
+Actual Result: It should show "Invalid username or password. SignIn failed."
+SEVERITY :Minor
+
+DEFECT 3:[Wrong Functional Defect]:"Registration Page CheckBox1"
+
+Expected Result:In Registraion page by clicking on checkbox MyList it should not disable.
+Actual Result:In Registration page after ckicking on check box MyList it is disabling before we save Account information.
+
+SEVERITY:Medium
+
+DEFECT 4:[Wrong Functional Defect]:"Update cart"
+Expected Result:After adding iteams to cart there is a button named Update Cart by clicking on that button it should view some window.
+Actual Result:After adding iteams to cart there is a button named Update Cart itbis not clickable.
+SEVERITY:Medium
+
+DEFECT 5:[Missing Functional Defect]>>"Search Button"
+Expected Result:In JPetStore there is a search button to search the Items by seaching Dogs>>Cats it should show available dogs and cats names.
+Actual Resutl: It is showing Headings i.e.,Product Id and Name products names are missing.
+SEVERITY:Major
+
+
+
